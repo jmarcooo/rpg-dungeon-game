@@ -42,6 +42,10 @@ body {
 .guard { background-color: #1e88e5; border-radius: 10px; }
 .slime { background-color: #43a047; border-radius: 50%; opacity: 0.8; }
 .chest { background-color: #ff9800; border: 2px solid gold; box-sizing: border-box; }
+.goblin { background-color: #388e3c; border-radius: 20%; border: 1px solid #1b5e20; }
+.orc { background-color: #1b5e20; border-radius: 10%; border: 2px solid #000; }
+.boss { background-color: #b71c1c; border-radius: 5%; border: 3px solid #f44336; box-shadow: 0 0 10px #f44336; }
+.potion { background-color: #e91e63; border-radius: 50%; }
 
 .player {
   width: 30px;
@@ -60,6 +64,31 @@ body {
   background-color: #2b2b2b;
   padding: 20px;
   border-left: 4px solid #444;
+  overflow-y: auto;
+}
+
+.ui-panel p {
+  margin: 5px 0;
+}
+
+.inventory-container li {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inventory-container button {
+  background-color: #555;
+  color: white;
+  border: 1px solid #777;
+  padding: 2px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.inventory-container button:hover {
+  background-color: #666;
 }
 
 .ui-panel h2 {

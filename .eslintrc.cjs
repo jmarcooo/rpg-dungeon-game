@@ -13,4 +13,5 @@ module.exports = {
     'react-refresh/only-export-components': 'warn',
     'no-unused-vars': 'warn',
   },
+  ignorePatterns: ['dist'],
 }
